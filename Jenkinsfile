@@ -13,7 +13,7 @@ pipeline{
     }
   }
   stage('Deploy'){
-    teps{
+    steps{
       echo 'Deployment Success'
     }
   }
