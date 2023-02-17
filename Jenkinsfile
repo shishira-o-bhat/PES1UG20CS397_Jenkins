@@ -12,8 +12,8 @@ pipeline{
       sh './PES1UG20CS397'
     }
   }
-  stage('Deployed'){
-    steps{
+  stage('Deploy'){
+    teps{
       echo 'Deployment Success'
     }
   }
